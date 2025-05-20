@@ -1,0 +1,21 @@
+# Ignorar arquivos de cache
+*.cache
+*.tmp
+
+# Ignorar arquivos de configuração temporários do editor
+*.swp
+*~
+
+# Ignorar diretórios de logs
+logs/
+*.log
+
+# Ignorar screenshots
+screenshots/
+
+# Ignorar arquivos de backup
+*.bak
+
+# Ignorar arquivos binários gerados
+*.exe
+*.out
