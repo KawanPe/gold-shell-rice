@@ -1,0 +1,6 @@
+show: drun
+allow_markup: true
+prompt: 
+hide_scroll: true
+filter_rate: 100
+

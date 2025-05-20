@@ -1,0 +1,22 @@
+format = """
+[](#4c2f91)\
+[  ](bg:#4c2f91 fg:#ffffff)\
+[](bg:#6e56cf fg:#4c2f91)\
+$username\
+[](bg:#3c2a79 fg:#6e56cf)\
+$directory\
+[](fg:#3c2a79)\
+"""
+
+[username]
+style_user = "bg:#6e56cf fg:#1e1e2e"
+show_always = true
+format = "[ $user ]($style)"
+
+[directory]
+style = "bg:#3c2a79 fg:#ffffff"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+

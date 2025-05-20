@@ -1,0 +1,83 @@
+// -*- mode: jsonc -*-
+{
+    "height": 33, // Altura da Waybar
+    //"spacing": 1, // Espaço entre módulos
+    "font": "JetBrainsMono Nerd Font 13", // <- Fonte geral definida aqui!
+
+    "modules-left": ["custom/logo","hyprland/workspaces","custom/media","tray"],
+    "modules-center": ["custom/date"],
+    "modules-right": [
+        "mpd",
+        "pulseaudio",
+        "cpu",
+        "memory",
+        "custom/power"
+    ],
+  //  "clock#calendar": {
+  //  "format": "{:%A %d de %B}",
+  //  "tooltip-format": "{:%A, %d de %B de %Y}",
+  //  "tooltip": true,
+  //  "interval": 60,
+  //  "locale": "pt_BR.UTF-8"
+//},
+   "custom/date": {
+        "interval": 60,
+        "exec": "date '+%A, %d de %B - %H:%M'",
+        "tooltip": false
+    },
+    "custom/logo": {
+        "format": "󰣇", // Ícone do Arch Linux
+        "tooltip": false,
+        "on-click": "alacritty" // Abre o terminal ao clicar
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "all-outputs": true,
+        "persistent-workspaces": {
+        "HDMI-A-1": [1, 2, 3, 4, 5]
+    },
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
+    },
+    "tray": {
+        "spacing": 10
+    },
+
+  //  "clock": {
+    //    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      //  "format": "{:%H:%M}", // Mostra só hora e minutos por padrão
+    //    "format-alt": "{:%Y-%m-%d}" // Alterna para data completa
+  //  },
+
+    "cpu": {
+        "format": " {usage}% ", // Ícone de CPU da Nerd Font
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": " {}%", // Ícone + porcentagem
+        "tooltip": true  // Usando Nerd Font para memória
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon}  {format_source}",
+        "format-bluetooth-muted": " {icon}  {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""] // Ícones de volume
+        },
+        "on-click": "pavucontrol"
+    }
+
+}

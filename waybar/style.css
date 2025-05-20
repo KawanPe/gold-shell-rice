@@ -1,0 +1,123 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 11px;
+  border: none;
+  border-radius: 8px;
+  padding: 0 8px;
+  min-height: 0;
+  margin: 0;
+}
+window#waybar {
+  background-color: rgba(26,27,38,0); 
+  color: #c0caf5;
+  padding: 0 5px;
+}
+
+#workspaces {
+ /* background: #292e42;*/
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  color: #7aa2f7;
+  background: transparent;
+}
+
+#workspaces button.active {
+  background: #7aa2f7;
+  color: #1a1b26;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  color: #7aa2f7;
+ /* background: transparent;*/
+  background: #292e42;
+  margin: 0 4px; /* separa os botões */
+  border: 1px solid #bb9af7; /* mantém a borda estilo Hyprland */
+  border-radius: 8px;
+}
+
+#clock,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#battery,
+#custom-power {
+ background: #292e42;
+  margin: 0 5px;
+}
+
+#clock {
+/*  font-size: 14px;  ou menor, se quiser bem fino */
+/*  padding: 0 8px; */
+}
+
+#cpu {
+ /* color: #7dcfff; */
+ color: #7aa2f7;
+
+}
+
+#memory {
+  /*color: #9ece6a;8*/
+  color: #7aa2f7;
+}
+
+#temperature {
+  color: #ff9e64;
+}
+
+#pulseaudio {
+ /* color: #e0af68; */
+ color: #7aa2f7;
+
+}
+
+#battery {
+  color: #73daca;
+}
+
+#custom-power {
+  color: #f7768e;
+/*  background: #1a1b26; */
+}
+
+#custom-logo, #clock {
+  color: #7aa2f7; /* Tom de azul claro do Arch */
+  margin-left: 5px; /* Margem à esquerda */
+  margin-right: 2px; /* Margem à direita */
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 24px; /* Aumenta o tamanho da logo */
+}
+#tray{
+  background: #292e42;
+}
+#custom-date {
+  background: #292e42;
+  color: #7aa2f7;
+  padding: 0 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+/* Borda estilo Hyprland: fina, sólida, roxa */
+#clock,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#battery,
+#custom-power,
+/*#custom-logo,*/
+#custom-date,
+#tray,
+#workspaces button {
+  border: 1px solid #bb9af7; /* roxo suave do Tokyo Night */
+}

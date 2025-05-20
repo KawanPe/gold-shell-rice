@@ -1,0 +1,40 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 11px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 8px;
+    margin: 0;
+    color: #c0caf5;
+    background: transparent;
+}
+
+window {
+    border: 2px solid rgba(187, 154, 247, 0.93); /* Borda roxa translúcida */
+    background-color: rgba(26, 27, 38, 0.95); /* Fundo escuro quase opaco */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#input {
+    margin: 8px 0;
+    padding: 6px;
+    border: 1px solid #bb9af7; /* mesma borda estilo Hyprland */
+    border-radius: 8px;
+    background-color: #292e42;
+    color: #c0caf5;
+}
+
+#entry {
+    padding: 6px 10px;
+    margin: 4px 0;
+    border-radius: 6px;
+    background-color: #292e42;
+    border: 1px solid #bb9af7;
+    color: #7aa2f7;
+}
+
+#entry:selected {
+    background-color: #7aa2f7;
+    color: #1a1b26;
+}
