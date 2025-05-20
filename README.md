@@ -24,6 +24,7 @@ Feito sob medida no Arch Linux com Hyprland, usando o tema Tokyo Dark como base 
 ## 📁 Estrutura do Repositório
 
 gold-shell-rice/
+
 ├── hypr/ # Configurações do Hyprland  
 ├── waybar/ # Barra de status customizada  
 ├── kitty/ # Configs do terminal Kitty  
@@ -65,6 +66,7 @@ Built on Arch Linux with Hyprland, using the Tokyo Dark theme as the visual base
 ## 📁 Repository Structure
 
 gold-shell-rice/
+
 ├── hypr/ # Hyprland configurations  
 ├── waybar/ # Custom status bar  
 ├── kitty/ # Kitty terminal configs  
