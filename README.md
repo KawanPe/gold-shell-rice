@@ -28,8 +28,7 @@ gold-shell-rice/
 ├── waybar/ # Barra de status customizada  
 ├── kitty/ # Configs do terminal Kitty  
 ├── wofi/ # Launcher de aplicativos (Wofi)  
-├── starship/ # Prompt de terminal (Starship)  
-├── fonts/ # Fontes utilizadas  
+├── starship/ # Prompt de terminal (Starship)   
 ├── wallpapers/ # Imagens de fundo  
 ├── screenshots/ # Capturas de tela do rice  
 └── script/ # Script bash utilizado  
@@ -70,8 +69,7 @@ gold-shell-rice/
 ├── waybar/ # Custom status bar  
 ├── kitty/ # Kitty terminal configs  
 ├── wofi/ # Application launcher (Wofi)  
-├── starship/ # Terminal prompt (Starship)  
-├── fonts/ # Fonts used  
+├── starship/ # Terminal prompt (Starship)   
 ├── wallpapers/ # Background images  
 ├── screenshots/ # Rice screenshots  
 └── script/ # Bash script used  
