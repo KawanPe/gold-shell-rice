@@ -25,14 +25,15 @@ Feito sob medida no Arch Linux com Hyprland, usando o tema Tokyo Dark como base 
 
 gold-shell-rice/
 
+├── fastfetch/ # Configuração do fastfetch para informações do sistema  
 ├── hypr/ # Configurações do Hyprland  
-├── waybar/ # Barra de status customizada  
 ├── kitty/ # Configs do terminal Kitty  
-├── wofi/ # Launcher de aplicativos (Wofi)  
+├── screenshots/ # Capturas de tela do rice  
+├── script/ # Script bash utilizado  
 ├── starship/ # Prompt de terminal (Starship)   
 ├── wallpapers/ # Imagens de fundo  
-├── screenshots/ # Capturas de tela do rice  
-└── script/ # Script bash utilizado  
+├── waybar/ # Barra de status customizada  
+└── wofi/ # Launcher de aplicativos (Wofi)  
 
 ## 🎨 Tema & Estilo
 
@@ -48,6 +49,7 @@ gold-shell-rice/
 - **Wofi** – Launcher para aplicativos, leve e Wayland-friendly  
 - **Starship** – Prompt moderno e altamente customizável para terminal  
 - **Swww** – Animação suave na troca de wallpapers  
+- **Fastfetch** – Exibe informações do sistema de forma leve e estilizada  
 - **Nerd Fonts** – Para ícones e símbolos visuais  
 
 ## ℹ️ Recomendação de Fonte
@@ -67,14 +69,15 @@ Built on Arch Linux with Hyprland, using the Tokyo Dark theme as the visual base
 
 gold-shell-rice/
 
+├── fastfetch/ # Fastfetch configuration for system info  
 ├── hypr/ # Hyprland configurations  
-├── waybar/ # Custom status bar  
 ├── kitty/ # Kitty terminal configs  
-├── wofi/ # Application launcher (Wofi)  
+├── screenshots/ # Rice screenshots  
+├── script/ # Bash script used  
 ├── starship/ # Terminal prompt (Starship)   
 ├── wallpapers/ # Background images  
-├── screenshots/ # Rice screenshots  
-└── script/ # Bash script used  
+├── waybar/ # Custom status bar  
+└── wofi/ # Application launcher (Wofi)  
 
 ## 🎨 Theme & Style
 
@@ -90,6 +93,7 @@ gold-shell-rice/
 - **Wofi** – Lightweight Wayland-friendly application launcher  
 - **Starship** – Modern, highly customizable terminal prompt  
 - **Swww** – Smooth wallpaper transition animations  
+- **Fastfetch** – Displays lightweight and styled system information  
 - **Nerd Fonts** – For icons and visual symbols  
 
 ## ℹ️ Font Recommendation
